@@ -1,0 +1,28 @@
+.posts {
+  background: rgb(255, 255, 255);
+  max-width: 960px;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+.post {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.year {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.year::before {
+  box-sizing: border-box;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #7e50bb;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
