@@ -6,8 +6,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "precommit": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "precommit": "lint-staged"
   },
   "author": "liaoyeguo",
   "license": "MIT",

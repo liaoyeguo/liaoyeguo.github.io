@@ -115,7 +115,6 @@ const plugins = [
   'gatsby-plugin-remove-serviceworker',
   'gatsby-plugin-sharp',
   'gatsby-plugin-sitemap',
-  'gatsby-plugin-styled-components',
 ]
 
 // The Fathom variables are set in Netlify's deploy settings.
